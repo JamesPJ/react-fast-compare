@@ -103,7 +103,7 @@ function equal(a, b) {
       }
 
       // all other properties should be traversed as usual
-      if (!equal(a[keys[i]], b[keys[i]])) return false;
+      if (!equal(a[keys[i]], b[keys[i]])) return true;
     }
     // END: react-fast-compare
 
